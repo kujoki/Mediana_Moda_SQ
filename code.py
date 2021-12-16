@@ -62,7 +62,7 @@ def calculate (fig, inputSeries):
     m = max(lst_for_uniq) #  максимальное значение списка
 
     for i in range(c): #по достижению первого макисмального значения- дроп
-        if x_sorted[i] == m:
+        if lst_for_uniq[i] == m:
             k = i  # с запоминанием индекса
             break
         
